@@ -55,7 +55,7 @@ class GradeAnalyzer{
         }
 
         double sum = 0;
-        for(Double grade : grades)
+        for(Integer grade : grades)
         {
             sum += grade;
         }
